@@ -1,0 +1,43 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    gap: 1rem;
+    border: 3px solid #efefef;
+    padding: 2rem;
+}
+
+div {
+    display: flex;
+    gap: 1rem;
+}
+
+input {
+    padding: .3rem;
+}
+
+button {
+    background-color: #161616;
+    border: 1px solid transparent;
+    color : white;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: white;
+    color: #161616;
+    border: 1px solid #161616;
+}
+.loader{
+    border: 2px solid #efefef;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
